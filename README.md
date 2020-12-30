@@ -1,6 +1,11 @@
 # Firebase
 Published to Firebase!!! visit `https://tictactoe-a3c18.web.app/` 
 
+# Instructions
+ng add @angular/fire
+ng build --prod
+ng deploy
+
 
 # Myapp
 

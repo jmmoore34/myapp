@@ -1,11 +1,31 @@
 main {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 25vmin 25vmin 25vmin;
     grid-gap: 0px;
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 app-square {
     border: 1px gray solid;
-    height: 200px;
+    height: 25vmin;
 }
 
+.header {
+    padding: 20px;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.header button {
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
